@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:stretchColumns="0"
+    tools:context="septianfriska.shop_receipt.MainActivity">
+
+    <TableRow>
+        <TextView android:text="KEYBOARD" />
+        <EditText android:id="@+id/KEYBOARD_num"
+            android:layout_width="100dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="MONITOR"/>
+        <EditText android:id="@+id/MONITOR_num"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="LCD"/>
+        <EditText android:id="@+id/LCD_num"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="CASSING"/>
+        <EditText android:id="@+id/CASSING_num"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="CPU"/>
+        <EditText android:id="@+id/CPU_num"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="CETAK FAKTUR"
+            android:layout_span="2"
+            android:onClick="printReceipt"/>
+    </TableRow>
+</TableLayout>

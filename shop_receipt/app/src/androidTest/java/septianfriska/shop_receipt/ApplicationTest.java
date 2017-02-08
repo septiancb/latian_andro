@@ -1,4 +1,4 @@
-package satria.friska.myapplication;
+package septianfriska.shop_receipt;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
